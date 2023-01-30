@@ -10,4 +10,4 @@ const gdmcontroller = require('./gdm.controller');
  router.post('/add', gdmcontroller.api.addData );
  router.post('/delete', gdmcontroller.api.deleteData );
 
-module.exports = router;
+module.exports = router; 
