@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "gdm_danger",
+    "password": "#cared$",
+    "database": "gdm_danger",
+    "host": "121.135.147.91",
+    "dialect": "mysql", 
+    "timezone": "+09:00"
+  },
+  "local": {
+    "username": "post_gdm",
+    "password": "#cared$",
+    "database": "post_gdm",
+    "host": "121.135.147.159",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "#mediex$",
+    "database": "gdm",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
