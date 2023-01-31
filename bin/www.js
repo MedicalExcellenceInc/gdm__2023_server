@@ -50,7 +50,7 @@ const server = http.createServer(app);
 
 // 환경 변수 설정 
 // 로컬 개발용 임시 포트 40005
-const port = '40005'; // normalizePort(process.env.PORT || '40005');
+const port = 40003; // normalizePort(process.env.PORT || '40005');
 app.set('port', port);
 
 
