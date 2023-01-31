@@ -20,7 +20,7 @@ module.exports = (sequelize, DataTypes) => {
             artificial_mc_cnt: { type: DataTypes.STRING },
             
             twin_kind: { type: DataTypes.STRING },
-            mother_original_Weight: { type: DataTypes.STRING },
+            mother_original_weight: { type: DataTypes.STRING },
             mother_height: { type: DataTypes.STRING },
             mother_original_bmi: { type: DataTypes.STRING },
             sbp: { type: DataTypes.STRING },
@@ -44,6 +44,7 @@ module.exports = (sequelize, DataTypes) => {
             adm_digest: { type: DataTypes.STRING },
             adm_digest_name: { type: DataTypes.STRING },
             adm_blood: { type: DataTypes.STRING },
+            adm_blood_name: { type: DataTypes.STRING },
             immune: { type: DataTypes.STRING },
             immune_dur: { type: DataTypes.STRING }, 
             immune_dur_name: { type: DataTypes.STRING }, 
@@ -60,6 +61,7 @@ module.exports = (sequelize, DataTypes) => {
             wbc: { type: DataTypes.STRING },
             hct: { type: DataTypes.STRING },
             plt: { type: DataTypes.STRING }, 
+            
             gfr: { type: DataTypes.STRING },
             tc: { type: DataTypes.STRING },
             hdl : {type : DataTypes.STRING },
@@ -70,8 +72,10 @@ module.exports = (sequelize, DataTypes) => {
             ogtt_50: { type: DataTypes.STRING } ,
             glucose: { type: DataTypes.STRING },
             hba1c: { type: DataTypes.STRING },
+            
             hcg: { type: DataTypes.STRING },
             pappa: { type: DataTypes.STRING } ,
+            
             result: { type: DataTypes.STRING },
             delete_yn: { type: DataTypes.STRING } 
         },

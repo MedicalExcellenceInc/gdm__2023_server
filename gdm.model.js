@@ -62,7 +62,7 @@ module.exports = {
                 artificial_mc_cnt: body.artificial_mc_cnt , 
                 
                 twin_kind: body.twin_kind , 
-                mother_original_Weight: body.mother_original_Weight , 
+                mother_original_weight: body.mother_original_weight , 
                 mother_height: body.mother_height , 
                 mother_original_bmi: body.mother_original_bmi , 
                 sbp: body.sbp , 
