@@ -90,7 +90,7 @@ module.exports = {
                 immune: body.immune , 
                 immune_dur: body.immune_dur , 
                 immune_dur_name: body.immune_dur_name , 
-                phx_skin: body.date , 
+                phx_skin: body.phx_skin , 
                 phx_skin_name: body.phx_skin_name , 
                 myomano: body.myomano , 
                 pcos: body.pcos , 
