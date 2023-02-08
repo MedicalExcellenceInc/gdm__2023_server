@@ -77,7 +77,8 @@ module.exports = (sequelize, DataTypes) => {
             pappa: { type: DataTypes.STRING } ,
             
             result: { type: DataTypes.STRING },
-            delete_yn: { type: DataTypes.STRING } 
+            delete_yn: { type: DataTypes.STRING },
+            ai_model_version: { type: DataTypes.STRING } 
         },
         {
             charset: 'utf8',

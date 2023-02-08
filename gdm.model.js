@@ -119,7 +119,8 @@ module.exports = {
                 pappa: body.pappa , 
                 
                 result: body.result ,                                   // 결과
-                delete_yn: body.delete_yn ,                             // 삭제여부
+                delete_yn: body.delete_yn ,  
+                ai_model_version: body.ai_model_version                           // 삭제여부
             })
             .then( result => { callback(result) })
             .catch( err => {
