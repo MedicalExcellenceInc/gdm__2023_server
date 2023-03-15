@@ -5,6 +5,7 @@ const gdmcontroller = require('./gdm.controller');
 
 
  router.get('/get', gdmcontroller.api.getData );
+ router.get('/getOne', gdmcontroller.api.getOneData );
  router.get('/get/recent', gdmcontroller.api.getRecentDataOne );
 
  router.post('/add', gdmcontroller.api.addData );

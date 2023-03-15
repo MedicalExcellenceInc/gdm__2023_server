@@ -15,6 +15,16 @@ module.exports = {
                  return res.send(data);
              })
         },
+        getOneData : (req, res) => {
+            console.log("==============================================");
+            console.log('getOneData 컨트롤러 연결 성공!');
+
+            // return res.send("test done!");
+             const query = req.query;
+             model.api.getOneData( query, data => {
+                 return res.send(data);
+             })
+        },
         getRecentDataOne : (req, res) => {
             console.log("==============================================");
             console.log('getRecentDataOne 컨트롤러 연결 성공!');

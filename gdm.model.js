@@ -26,6 +26,19 @@ module.exports = {
             .then( result => { callback(result) })
             .catch( err => { throw err })
         },
+        getOneData : (query, callback) => {
+            gdm.findAll({
+                where :{
+                    id : query.id,
+                    delete_yn: false
+                },
+                order: [
+                    ['id', 'DESC']
+                ]
+            })
+            .then( result => { callback(result) })
+            .catch( err => { throw err })
+        },
         getRecentDataOne : (query, callback) => {
             gdm.findAll({
                 where :{
@@ -101,12 +114,15 @@ module.exports = {
                 
                 hb: body.hb , 
                 wbc: body.wbc , 
+                lymphocyt: body.lymphocyt,
+                neutrophil : body.neutrophil,
                 hct: body.hct , 
                 plt: body.plt , 
-               
+                neutrophil : body.neutrophil,
                 gfr: body.gfr , 
                 tc: body.tc , 
                 hdl: body.hdl , 
+                ldl : body.ldl,
                 ast: body.ast , 
                 alt: body.alt , 
                 

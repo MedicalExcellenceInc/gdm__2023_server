@@ -59,12 +59,15 @@ module.exports = (sequelize, DataTypes) => {
             
             hb: { type: DataTypes.STRING },
             wbc: { type: DataTypes.STRING },
+            lymphocyt: { type: DataTypes.STRING },
+            neutrophil: { type: DataTypes.STRING },
             hct: { type: DataTypes.STRING },
             plt: { type: DataTypes.STRING }, 
             
             gfr: { type: DataTypes.STRING },
             tc: { type: DataTypes.STRING },
             hdl : {type : DataTypes.STRING },
+            ldl : {type : DataTypes.STRING },
             ast: { type: DataTypes.STRING },
             alt: { type: DataTypes.STRING },
             
