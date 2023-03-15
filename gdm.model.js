@@ -118,7 +118,6 @@ module.exports = {
                 neutrophil : body.neutrophil,
                 hct: body.hct , 
                 plt: body.plt , 
-                neutrophil : body.neutrophil,
                 gfr: body.gfr , 
                 tc: body.tc , 
                 hdl: body.hdl , 
